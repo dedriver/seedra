@@ -1,0 +1,88 @@
+.boxProduct{
+    max-width: 350px;
+    width: auto;
+    padding:   12px  20px  20px  20px;
+border-radius: 8px;
+border: 2px solid #EFEFEF;
+}
+
+.boxProduct{
+    display: flex;
+    flex-direction: column; 
+}
+
+.boxProductImg{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.bueLine{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.boxProductStarLine{
+    margin-top: 30px;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: center;
+}
+
+.boxProductText{
+    margin-top: 15px;
+font-family: Lexend;
+font-size: 16px;
+font-weight: 500;
+letter-spacing: -0.04em;
+color: #1F2533;
+}
+
+.boxProductCost{
+    margin-top: 35px;
+font-family: Lexend;
+font-size: 28px;
+font-weight: 600;
+color: #1F2533;
+}
+
+
+.bueLine button{
+ width: 48px;   
+height: 48px;
+border-radius: 8px;
+border: 1px solid #EFEFEF;
+background-color: white;
+opacity: 0px;
+}
+
+
+.parent {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    }
+
+.like button{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+height: 40px;
+gap: 0px;
+border: 1px solid #EFEFEF;
+border-radius: 100%;
+background-color: white;
+}  
+
+.like {
+    display: flex;
+    justify-content: end;
+}

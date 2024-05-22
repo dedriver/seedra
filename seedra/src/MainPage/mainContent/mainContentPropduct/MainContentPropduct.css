@@ -1,0 +1,55 @@
+.sectionMainContentPropduct_topBTNliNE_btn button{
+        width: 153px;
+height: 51px;
+border-radius: 8px ;
+opacity: 0px;
+background-color: white;
+border: #359740;
+font-family: Lexend;
+font-size: 16px;
+font-weight: 500;
+letter-spacing: -0.035em;
+color: #359740;  
+border: 1px solid  #359740;
+}
+
+.sectionMainContentPropduct_topBTNliNE{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionMainContentPropduct_topBTNliNE_txt{
+    font-family: Lexend;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: -0.05em;
+    color: #1F2533;
+}
+
+.sectionMainContentPropductBtn *{
+    margin-right: 10px;
+}
+.sectionMainContentPropductBtn{
+    width: 153px;
+height: 51px;
+border-radius: 8px ;
+opacity: 0px;
+background-color: white;
+border: #359740;
+font-family: Lexend;
+font-size: 16px;
+font-weight: 500;
+letter-spacing: -0.035em;
+color: #359740;  
+border: 1px solid  #359740;
+margin-top: 50px;
+display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.itemLine{
+   display: flex;
+   flex-direction: row ;
+   justify-content: space-between;
+}

@@ -1,0 +1,39 @@
+.mainPageHeder{
+    display: flex;
+    height: 72px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 4px 12px 0px #CFCFCF40;
+    padding: 0 7% 0 7%;
+}
+
+.mainPageHederlinks ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.mainPageHeder a{
+    margin-left:40px;
+    text-decoration: none;
+font-family: Lexend;
+font-size: 14px;
+font-weight: 400;
+color: #70737C;
+}
+
+.mainPageHedericon-Input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.mainPageHederinput input{
+width: 285px;
+height: 48px;
+border-radius: 71px ;
+border: 1px solid black;
+opacity: 0px;
+}
+
+.mainPageHedericon-Input *{
+    margin-left: 10px;
+}
