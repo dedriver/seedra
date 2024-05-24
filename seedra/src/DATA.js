@@ -36,5 +36,5 @@ export const BlogComponentDATA = [
     {img: Women , data:'01.01.2021', text:'How to plant spinach correctly in winter', descripion: 'In most areas, successive sowing can be done from early spring until early winter, but more often during hotter months...', ID: 'item-0',},
     {img: capusta, data:'19.05.2023', text:'How to plant spinach correctly in winter', descripion: 'In most areas, successive sowing can be done from early spring until early winter, but more often during hotter months...', ID: 'item-1',},
     {img: strawbery, data:'30.09.2021', text:'How to plant spinach correctly in winter', descripion: '', ID: 'item-2',},
-    {img: strawbery , data:'27.03.2023', text:'How to plant spinach correctly in winter', descripion: '', ID: 'item-3',},
+    {img: strawbery  , data:'27.03.2023', text:'How to plant spinach correctly in winter', descripion: '', ID: 'item-3',},
 ]
