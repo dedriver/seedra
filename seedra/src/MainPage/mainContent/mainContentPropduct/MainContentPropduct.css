@@ -18,6 +18,12 @@ border: 1px solid  #359740;
     justify-content: space-between;
 }
 
+.flexPeranr{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .sectionMainContentPropduct_topBTNliNE_txt{
     font-family: Lexend;
     font-size: 36px;
@@ -29,16 +35,20 @@ border: 1px solid  #359740;
 .sectionMainContentPropductBtn *{
     margin-right: 10px;
 }
+
+.sectionMainContentPropductBtn img{
+    width: 18%;
+}
+
 .sectionMainContentPropductBtn{
-    width: 153px;
+    width: 13%;
 height: 51px;
 border-radius: 8px ;
 opacity: 0px;
 background-color: white;
 border: #359740;
 font-family: Lexend;
-font-size: 16px;
-font-weight: 500;
+font-size: clamp(0.25rem, 0.143rem + 0.857vw, 1rem);font-weight: 500;
 letter-spacing: -0.035em;
 color: #359740;  
 border: 1px solid  #359740;
@@ -53,3 +63,16 @@ display: flex;
    flex-direction: row ;
    justify-content: space-between;
 }
+
+.parent {
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    }

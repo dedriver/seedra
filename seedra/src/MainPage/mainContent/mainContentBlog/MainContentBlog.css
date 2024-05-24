@@ -36,17 +36,23 @@ font-size: 16px;
 font-weight: 500;
 letter-spacing: -0.035em;
 color: #359740;
+margin-top: 20px;
 }
 
 .BlogComponent{
-width: 350px;
-height: max-content;
+width: 100%;
+height: 100%;
 border-radius: 12px;
 background-color: #EFF2F8;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 }
-
+.sectionMainContentBlogPerent{
+    margin-top: 50px;
+}
 .a{
-    padding: 30px;
+   padding: 30px;
 }
 
 .BlogComponentText{
@@ -55,10 +61,10 @@ font-size: 24px;
 font-weight: 600;
 letter-spacing: -0.02em;
 color: #1F2533;
+margin-top: 15px;
 }
 
 .angry-grid {
-    margin-top: 30px;
     display: grid; 
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
@@ -74,6 +80,7 @@ font-weight: 400;
 line-height: 24.95px;
 text-align: left;
 color: #70737C;
+margin-top: 15px;
 }
 
 #item-0 {
@@ -81,21 +88,28 @@ color: #70737C;
     grid-column-start: 3;
     grid-row-end: 3;
     grid-column-end: 4;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 #item-0 img{
 } 
 
-#item-1 {
+#item-1 img{
+}
+
+#item-1 .blogImeg{
     display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+#item-1 {
     grid-row-start: 1;
     grid-column-start: 1;
     width: 100%;
     grid-row-end: 2;
     grid-column-end: 3;
+    display: flex;
+    flex-direction: row;
 }
 
 #item-2 {
@@ -103,25 +117,35 @@ color: #70737C;
     grid-column-start: 2;
     grid-row-end: 3;
     grid-column-end: 3;
-    display: flex;
-    flex-direction: column;
-    align-items: end;
 }
+
+#item-3 .blogImeg{
+   text-align: end;
+}
+
+#item-2 .blogImeg{
+    text-align: end;
+ }
+
+ #item-1 .blogImeg{
+    text-align: end;
+ }
+
+ #item-0 .blogImeg{
+    text-align: end;
+ }
 
 #item-3 {
     grid-row-start: 2;
     grid-column-start: 1;
     grid-row-end: 3;
     grid-column-end: 2;
-    display: flex;
-    flex-direction: column;
-    align-items: end;
 }
 
 
 .BlogComponentData {
-    display: flex;
-    flex-direction: row;
+   display: flex;
+   align-items: center;
 }
 
 .BlogComponentData p{

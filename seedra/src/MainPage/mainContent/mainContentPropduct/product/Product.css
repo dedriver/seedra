@@ -1,5 +1,5 @@
 .boxProduct{
-    max-width: 350px;
+    max-width: 90%;
     width: auto;
     padding:   12px  20px  20px  20px;
 border-radius: 8px;
@@ -9,6 +9,10 @@ border: 2px solid #EFEFEF;
 .boxProduct{
     display: flex;
     flex-direction: column; 
+}
+
+.boxProductImg img{
+    width: 100%;
 }
 
 .boxProductImg{
@@ -35,8 +39,7 @@ border: 2px solid #EFEFEF;
 .boxProductText{
     margin-top: 15px;
 font-family: Lexend;
-font-size: 16px;
-font-weight: 500;
+font-size: clamp(0.25rem, 0.125rem + 1vw, 1.125rem);font-weight: 500;
 letter-spacing: -0.04em;
 color: #1F2533;
 }
@@ -65,14 +68,7 @@ justify-content: center;
     margin-right: 10px;
 }
 
-.parent {
-    margin-top: 50px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    }
+
 
 .like button{
     position: absolute;

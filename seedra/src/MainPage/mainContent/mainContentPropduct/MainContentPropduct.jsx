@@ -13,9 +13,11 @@ export default function MainContentPropduct(){
             <div className='itemLine'>
           {sectionMainContentPropductBtnDATA.map((item)=>( <MainContentPropductBtn imgs={item.imgs} texts={item.text}/>))}
           </div>
+          <div className='flexPeranr'>
           <div class="parent">
           {BoxProduct.map((item)=>(<Product imges={item.img} text={item.text} descripionImg={item.descripionImg} cost={item.cost}/>))}
-    
+
+          </div>
           </div>
         </section>
     )

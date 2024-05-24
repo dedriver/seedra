@@ -5,3 +5,7 @@ body {
 ul{
   text-decoration: none;
 }
+
+*{
+    /* outline: 1px solid black !important;  */
+}  

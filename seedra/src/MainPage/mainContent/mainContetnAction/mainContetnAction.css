@@ -1,5 +1,5 @@
 .sectionMainContetnAction{
- width: 1110px;
+ width:86%;
 border-radius: 24px ;
 height: 455px;
 background-color: #EAF1EB;
@@ -12,15 +12,13 @@ padding: 0 20px 0 20px;
 
 .MainContetnAction_MainText{
 font-family: Lexend;
-font-size: 3rem;
-font-weight: 600;
+font-size: clamp(1.563rem, 1.357rem + 1.643vw, 3rem);font-weight: 600;
 letter-spacing: -0.05em;
 }
 
 .MainContetnAction_MainDescription{
 font-family: Lexend;
-font-size: 1em;
-font-weight: 300;
+font-size: clamp(0.5rem, 0.429rem + 0.571vw, 1rem);font-weight: 300;
 margin-top: 20px;
 
 }
@@ -34,6 +32,11 @@ margin-top: 20px;
 
 .MainContetnAction_costLine div{
     margin-right: 20px;
+}
+
+.sectionMainContetnAction_B img{
+    width: 100%;
+    min-width: 40%;
 }
 
 .MainContetnAction_cost{
@@ -77,7 +80,7 @@ color: #359740;
 }
 
 .sectionMainContetnSeds{
-width: 1110px;
+width: 86%;
 height: 104px;
 border-radius: 12px;
 opacity: 0px;
@@ -102,6 +105,7 @@ font-size: 24px;
 font-weight: 600;
 letter-spacing: -0.02em;
 color: #1F2533;
+
 }
 
 .sectionMainContetnSeds_mainDescription{

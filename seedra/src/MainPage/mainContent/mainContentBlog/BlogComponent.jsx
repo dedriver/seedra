@@ -16,7 +16,8 @@ export default function BlogComponent({img , data , text ,description ,ID}){
             </div>
             <div className="BlogComponentBtn">
                 <button><p>Read</p></button>
-            </div>
+            </div>          
+
             </div>
             <div className="blogImeg"><img src={img} alt="capust" /></div>
         </div>
