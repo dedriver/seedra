@@ -57,8 +57,13 @@ border-radius: 8px;
 border: 1px solid #EFEFEF;
 background-color: white;
 opacity: 0px;
+display: flex;
+align-items: center;
+justify-content: center;
 }
-
+.star{
+    margin-right: 10px;
+}
 
 .parent {
     margin-top: 50px;
@@ -81,6 +86,11 @@ border: 1px solid #EFEFEF;
 border-radius: 100%;
 background-color: white;
 }  
+
+.bueLine button:hover{
+    background-color: #EFEFEF
+    ;
+}
 
 .like {
     display: flex;

@@ -1,0 +1,133 @@
+.sectionMainContentBlog_topBTNliNE_btn button{
+    width: 153px;
+height: 51px;
+border-radius: 8px ;
+opacity: 0px;
+background-color: white;
+border: #359740;
+font-family: Lexend;
+font-size: 16px;
+font-weight: 500;
+letter-spacing: -0.035em;
+color: #359740;  
+border: 1px solid  #359740;
+}
+
+.sectionMainContentBlog_topBTNliNE{
+    margin-top: 80px;
+display: flex;
+justify-content: space-between;
+}
+.BlogComponentBtn button:hover{
+color: white;
+border: #359740;
+background-color: #359740;
+}
+.BlogComponentBtn button{
+margin-right: 20px;
+width: 153px;
+height: 51px;
+border-radius: 8px ;
+opacity: 0px;
+background-color: white;
+border: #359740;
+font-family: Lexend;
+font-size: 16px;
+font-weight: 500;
+letter-spacing: -0.035em;
+color: #359740;
+}
+
+.BlogComponent{
+width: 350px;
+height: max-content;
+border-radius: 12px;
+background-color: #EFF2F8;
+}
+
+.a{
+    padding: 30px;
+}
+
+.BlogComponentText{
+font-family: Lexend;
+font-size: 24px;
+font-weight: 600;
+letter-spacing: -0.02em;
+color: #1F2533;
+}
+
+.angry-grid {
+    margin-top: 30px;
+    display: grid; 
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px; /* Adds 20px gap between columns */
+    grid-row-gap: 30px;    /* Adds 20px gap between rows */
+    height: 100%;
+}
+
+.BlogComponentDescription{
+font-family: Lexend;
+font-size: 14px;
+font-weight: 400;
+line-height: 24.95px;
+text-align: left;
+color: #70737C;
+}
+
+#item-0 {
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-row-end: 3;
+    grid-column-end: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#item-0 img{
+} 
+
+#item-1 {
+    display: flex;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    width: 100%;
+    grid-row-end: 2;
+    grid-column-end: 3;
+}
+
+#item-2 {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-row-end: 3;
+    grid-column-end: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+#item-3 {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+
+.BlogComponentData {
+    display: flex;
+    flex-direction: row;
+}
+
+.BlogComponentData p{
+    margin-left: 20px;
+    color:#70737C;
+font-family: Lexend;
+font-size: 14px;
+font-weight: 400;
+}
