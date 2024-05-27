@@ -50,6 +50,8 @@ justify-content: space-between;
 }
 .sectionMainContentBlogPerent{
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
 }
 .a{
    padding: 30px;
@@ -93,8 +95,6 @@ margin-top: 15px;
 #item-0 img{
 } 
 
-#item-1 img{
-}
 
 #item-1 .blogImeg{
     display: flex;
@@ -155,3 +155,5 @@ font-family: Lexend;
 font-size: 14px;
 font-weight: 400;
 }
+
+

@@ -21,5 +21,6 @@ export default function BlogComponent({img , data , text ,description ,ID}){
             </div>
             <div className="blogImeg"><img src={img} alt="capust" /></div>
         </div>
+        
     );
 }

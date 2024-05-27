@@ -3,6 +3,7 @@ import Toline from '../../../comp/Toline';
 import BlogComponent from './BlogComponent';
 import { BlogComponentDATA } from '../../../DATA';
 export default function MainContentBlog(){
+      
     return(
         <section className="sectionMainContentBlog">
             <Toline text="Our blog." clase={"sectionMainContentBlog_topBTNliNE"} btn_text="Go to our blog"/>
@@ -14,6 +15,7 @@ export default function MainContentBlog(){
             <div className='blogComponet'>
             </div>
             </div>
+            
         </section>
     );
 }

@@ -18,13 +18,9 @@ border: 1px solid  #359740;
     justify-content: space-between;
 }
 
-.flexPeranr{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
 
-.sectionMainContentPropduct_topBTNliNE_txt{
+
+.sectionMainContentPropduct_topBTNliNE_txt {
     font-family: Lexend;
     font-size: 36px;
     font-weight: 600;
@@ -32,16 +28,16 @@ border: 1px solid  #359740;
     color: #1F2533;
 }
 
-.sectionMainContentPropductBtn *{
+.sectionMainContentPropductBtn  *{
     margin-right: 10px;
 }
 
-.sectionMainContentPropductBtn img{
+.sectionMainContentPropductBtn  button img{
     width: 18%;
 }
 
-.sectionMainContentPropductBtn{
-    width: 13%;
+.sectionMainContentPropductBtn button {
+    width: auto;
 height: 51px;
 border-radius: 8px ;
 opacity: 0px;
@@ -64,15 +60,16 @@ display: flex;
    justify-content: space-between;
 }
 
-.parent {
-    
+.flexPeranr{
     display: flex;
-    align-items: center;
     flex-direction: column;
-    margin-top: 50px;
+justify-content: space-between;
+}
+
+.parent {
+    margin-left: 3%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    }
+    gap: 20px;
+    grid-template-columns: repeat(3, minmax(0, 1fr)); /* Three columns */
+    margin-top: 50px;
+}

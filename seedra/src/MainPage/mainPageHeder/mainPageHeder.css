@@ -1,39 +1,41 @@
 .mainPageHeder{
     display: flex;
+    align-items: center;
     height: 72px;
+    justify-content: space-between;
+    padding: 0 7%;
+}
+.mainPageHedericon-Input{
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0px 4px 12px 0px #CFCFCF40;
-    padding: 0 7% 0 7%;
 }
 
 .mainPageHederlinks ul{
     display: flex;
-    flex-direction: row;
-}
-
-.mainPageHeder a{
-    margin-left:40px;
-    text-decoration: none;
-font-family: Lexend;
-font-size: 14px;
-font-weight: 400;
-color: #70737C;
-}
-
-.mainPageHedericon-Input{
-    display: flex;
-    flex-direction: row;
     align-items: center;
 }
-.mainPageHederinput input{
-width: 285px;
-height: 48px;
-border-radius: 71px ;
-border: 1px solid black;
-opacity: 0px;
+
+.mainPageHederlinks ul a{
+font-size: clamp(0.1875rem, 0.0714rem + 0.9286vw, 1rem);
+font-family: Lexend;
+font-weight: 400;
+color: #70737C;
+padding: 0rem  0.8rem;
+text-decoration: none;
 }
 
-.mainPageHedericon-Input *{
-    margin-left: 10px;
+.mainPageHederinput{
+    display: flex;
+justify-content: center;
+}
+
+.mainPageHederinput input{
+width: 70%;
+height: 80%;
+padding: 12px 178px 11px 20px;
+border-radius: 71px ;
+border: 3px solid #EFEFEF;
+opacity: 0px;
+color: black;
 }
