@@ -28,6 +28,56 @@ opacity: 0.3px;
 margin-top: 20px;
 }
 
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LINKS a{
+    font-size: clamp(0.1875rem, 0.0714rem + 0.9286vw, 1rem);
+font-family: Lexend;
+font-weight: 400;
+color: #70737C;
+text-decoration: none;
+
+}
+
+
+.LINKS {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.LINKS2{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.LINKS2 a{
+    font-size: clamp(0.1875rem, 0.0714rem + 0.9286vw, 1rem);
+    font-family: Lexend;
+    font-weight: 400;
+    color: #70737C;
+    text-decoration: none;
+}
+
+.sectoinFooerMaunPage__contentIconsimg{
+    width: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sectoinFooerMaunPage__contentIcons p{
+    font-size: clamp(0.1875rem, 0.0714rem + 0.9286vw, 1rem);
+    font-family: Lexend;
+    font-weight: 400;
+    color: #70737C;
+
+}
 
 .sectoinFooerMaunPage__contentIcons{
     margin-top: 20px;

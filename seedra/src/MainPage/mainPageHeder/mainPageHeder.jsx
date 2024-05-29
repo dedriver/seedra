@@ -4,6 +4,7 @@ import facebook from './face.png'
 import baket from './baket.png'
 import heart from './heart.png'
 import './mainPageHeder.css'
+
 export default function MainPageHeder(){
     return(<>
         <section className="mainPageHeder">
