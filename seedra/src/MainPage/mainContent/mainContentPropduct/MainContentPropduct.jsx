@@ -31,19 +31,19 @@ export default function MainContentPropduct() {
           <MainContentPropductBtn
             imgs={item.imgs}
             texts={item.text}
-            Click={()=>hendkeSearch(item.text)}
+            Click={()=>hendkeSearch(item.keyWords)}
           />
         ))}
       </div>
       <div className="flexPeranr">
         <div class="parent">
-          {filterProduct.map((item) => (
+          {filterProduct.map((item , key1) => (
             <Product
               imges={item.img}
               text={item.text}
               descripionImg={item.descripionImg}
               cost={item.cost}
-              key={item.keyWords}
+              key={key1}
             />
           ))}
         </div>

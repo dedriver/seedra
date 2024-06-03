@@ -1,0 +1,38 @@
+.FilterSide{
+    width: 200px;
+    margin-top: 50px;
+}
+
+.FilterSideItem{
+
+}
+
+.Slogan{
+    font-family: Lexend;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28.51px;
+    letter-spacing: -0.035em;  
+    color: #1F2533;  
+}
+
+.ItemText{
+    font-family: Lexend;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24.95px;    
+    color: #70737C;
+    -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            margin-left: 20px;
+}
+
+
+.iTEMlINE{
+    width: 90%;
+border: 1px solid #EFEFEF;
+}
+
+.ItemTextHover{
+    display: none;
+}
