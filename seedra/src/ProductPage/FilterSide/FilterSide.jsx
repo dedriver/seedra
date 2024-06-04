@@ -1,26 +1,79 @@
-import './FilterSide.css'
-import { useState } from 'react'
+import './FilterSide.css';
+import { useState } from 'react';
 import ListItem from './LIstItem';
-export default function FilterSide(){
-    const [hoverFilter , setHowerFolter] = useState(false);
+import { BoxProductBig } from '../../DATA';
 
-function hendleFilterHover(){
-    setHowerFolter(true)
-}
-function hendleFilterOut(){
-    setHowerFolter(false)
-}
-    return(
+export default function FilterSide({ list1, list2, list3, list4, checked, clk }) {
+    const [isFilterVisible, setFilterVisible] = useState(false);
+    const [value, setValue] = useState(false);
+    function handleFilterToggle() {
+        setFilterVisible(!isFilterVisible);
+    }
+
+    const handleChange = (event) => {
+        const newValue = parseInt(event.target.value);
+        setValue(newValue);
+      };
+
+    return (
         <div className="FilterSide">
-            <p onMouseOver={hendleFilterHover} onMouseOut={hendleFilterOut}>Filter</p>
+            <p className='adas' onClick={handleFilterToggle}>
+                Filter
+            </p>
             <div className="iTEMlINE"></div>
-            {/* <div onMouseOver={hendleFilterHover} onMouseOut={hendleFilterOut} className={hoverFilter ? 'FilterSideBoxHide' : 'FilterSideBox'}></div> */}
-            <ListItem slogan={"List1"} item={"itemList1"}/>
-            <ListItem slogan={"List2"} item={"itemList2"}/>
-            <ListItem slogan={"List3"} item={"itemList3"}/>
-            <ListItem slogan={"List4"} item={"itemList4"}/>
-            <ListItem slogan={"List5"} item={"itemList5"}/>
-            <ListItem slogan={"List6"} item={"itemList6"}/>
+            {isFilterVisible && (
+                <div className="FilterSideBox">
+                    <ListItem slogan="Seed type">
+                        <div className="list1Item">
+                            <input type="checkbox" onChange={list1} /> <p>Hybrid</p>
+                        </div>
+                        <div className="list1Item">
+                            <input type="checkbox" onChange={list2} /> <p>Open Pollinated</p>
+                        </div>
+                        <div className="list1Item">
+                            <input type="checkbox" onChange={list3} /> <p>Organic Seeds</p>
+                        </div>
+                        <div className="list1Item">
+                            <input type="checkbox" onChange={list4} /> <p>Pelleted Seed</p>
+                        </div>
+                    </ListItem>
+                    <ListItem slogan="Featured">
+                        <div className="list1Item">
+                            <input type="checkbox" onChange={list1} /> <p>Hybrid</p>
+                        </div>
+                        <div className="list1Item">
+                            <input type="checkbox" onChange={list2} /> <p>Open Pollinated</p>
+                        </div>
+                        <div className="list1Item">
+                            <input type="checkbox" onChange={list3} /> <p>Organic Seeds</p>
+                        </div>
+                        <div className="list1Item">
+                            <input type="checkbox" onChange={list4} /> <p>Pelleted Seed</p>
+                        </div>
+                    </ListItem>
+                    <ListItem slogan="Growing Conditions">
+                        <div className="list1Item">
+                            <input type="checkbox" onChange={list1} /> <p>Hybrid</p>
+                        </div>
+                        <div className="list1Item">
+                            <input type="checkbox" onChange={list2} /> <p>Open Pollinated</p>
+                        </div>
+                        <div className="list1Item">
+                            <input type="checkbox" onChange={list3} /> <p>Organic Seeds</p>
+                        </div>
+                        <div className="list1Item">
+                            <input type="checkbox" onChange={list4} /> <p>Pelleted Seed</p>
+                        </div>
+                    </ListItem>
+                    <ListItem slogan={'Price'}>
+                        <p>from</p>
+                        <input type="text" />
+                        <p>to</p>
+                        <input type="text"  value={value}/>
+                        <input type="range" value={value} onChange={handleChange} />
+                    </ListItem>
+                </div>
+            )}
         </div>
-    )
+    );
 }

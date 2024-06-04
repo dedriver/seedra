@@ -34,18 +34,18 @@ export const BoxProduct = [
 ]
 
 export const BoxProductBig=[
-  {img:cilanroIMG,text:'Seedra Cilantro Seeds for Planting Indoor and Outdoor',cost:'$12.56',descripionImg:'cilanro', keyWords: 'BUNDLES'},
-    {img:cornIMG,text:'SEEDRA Corn - Bodacious Hybrid Seeds for Indoor and Outdoor Planting',cost:'$13.56',descripionImg:'corn',  keyWords: 'HERBS'},
-    {img:spinachIMG,text:'SEEDRA Spinach Seeds for Indoor and Outdoor Planting',cost:'$11.56',descripionImg:'spinach', keyWords: 'VEGETABLES'},
-    {img:cilanroIMG,text:'Seedra Cilantro Seeds for Planting Indoor and Outdoor',cost:'$12.56',descripionImg:'cilanro', keyWords: 'FRUITS'},
-    {img:cornIMG,text:'SEEDRA Corn - Bodacious Hybrid Seeds for Indoor and Outdoor Planting',cost:'$13.56',descripionImg:'corn', keyWords: 'SUPPLIES'},
-    {img:spinachIMG,text:'SEEDRA Spinach Seeds for Indoor and Outdoor Planting  ',cost:'$12.56',descripionImg:'spinach', keyWords: 'FLOWERS'},
-    {img:cilanroIMG,text:'Seedra Cilantro Seeds for Planting Indoor and Outdoor',cost:'$12.56',descripionImg:'cilanro', keyWords: 'BUNDLES'},
-    {img:cornIMG,text:'SEEDRA Corn - Bodacious Hybrid Seeds for Indoor and Outdoor Planting',cost:'$13.56',descripionImg:'corn',  keyWords: 'HERBS'},
-    {img:spinachIMG,text:'SEEDRA Spinach Seeds for Indoor and Outdoor Planting',cost:'$11.56',descripionImg:'spinach', keyWords: 'VEGETABLES'},
-    {img:cilanroIMG,text:'Seedra Cilantro Seeds for Planting Indoor and Outdoor',cost:'$12.56',descripionImg:'cilanro', keyWords: 'FRUITS'},
-    {img:cornIMG,text:'SEEDRA Corn - Bodacious Hybrid Seeds for Indoor and Outdoor Planting',cost:'$13.56',descripionImg:'corn', keyWords: 'SUPPLIES'},
-    {img:spinachIMG,text:'SEEDRA Spinach Seeds for Indoor and Outdoor Planting  ',cost:'$12.56',descripionImg:'spinach', keyWords: 'FLOWERS'},
+  {img:cilanroIMG,text:'Seedra Cilantro Seeds for Planting Indoor and Outdoor',cost:'$12.56',descripionImg:'cilanro', keyWords: 'BUNDLES',SeedType : "Hybrid"},
+    {img:cornIMG,text:'SEEDRA Corn - Bodacious Hybrid Seeds for Indoor and Outdoor Planting',cost:'$13.56',descripionImg:'corn',  keyWords: 'HERBS',SeedType : "Open Pollinated"},
+    {img:spinachIMG,text:'SEEDRA Spinach Seeds for Indoor and Outdoor Planting',cost:'$11.56',descripionImg:'spinach', keyWords: 'VEGETABLES',SeedType : "Organic Seeds"},
+    {img:cilanroIMG,text:'Seedra Cilantro Seeds for Planting Indoor and Outdoor',cost:'$12.56',descripionImg:'cilanro', keyWords: 'FRUITS',SeedType : "Pelleted See"},
+    {img:cornIMG,text:'SEEDRA Corn - Bodacious Hybrid Seeds for Indoor and Outdoor Planting',cost:'$13.56',descripionImg:'corn', keyWords: 'SUPPLIES',SeedType : ""},
+    {img:spinachIMG,text:'SEEDRA Spinach Seeds for Indoor and Outdoor Planting  ',cost:'$12.56',descripionImg:'spinach', keyWords: 'FLOWERS',SeedType : "Hybrid"},
+    {img:cilanroIMG,text:'Seedra Cilantro Seeds for Planting Indoor and Outdoor',cost:'$12.56',descripionImg:'cilanro', keyWords: 'BUNDLES',SeedType : "Hybrid"},
+    {img:cornIMG,text:'SEEDRA Corn - Bodacious Hybrid Seeds for Indoor and Outdoor Planting',cost:'$13.56',descripionImg:'corn',  keyWords: 'HERBS',SeedType : "Open Pollinated"},
+    {img:spinachIMG,text:'SEEDRA Spinach Seeds for Indoor and Outdoor Planting',cost:'$11.56',descripionImg:'spinach', keyWords: 'VEGETABLES',SeedType : "Organic Seeds"},
+    {img:cilanroIMG,text:'Seedra Cilantro Seeds for Planting Indoor and Outdoor',cost:'$12.56',descripionImg:'cilanro', keyWords: 'FRUITS',SeedType : "Pelleted See"},
+    {img:cornIMG,text:'SEEDRA Corn - Bodacious Hybrid Seeds for Indoor and Outdoor Planting',cost:'$13.56',descripionImg:'corn', keyWords: 'SUPPLIES',SeedType : "Open Pollinated"},
+    {img:spinachIMG,text:'SEEDRA Spinach Seeds for Indoor and Outdoor Planting  ',cost:'$12.56',descripionImg:'spinach', keyWords: 'FLOWERS',SeedType : "Pelleted See"},
 ]
 
 export const BlogComponentDATA = [

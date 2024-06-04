@@ -1,21 +1,22 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
-export default function ListItem({slogan , item}){
-    const [HoverItem , setHoverItem] = useState(false);
+export default function ListItem({ slogan, items, children }) {
+  const [hoverItem, setHoverItem] = useState(false);
 
-function HandleHoverItem(){
-    setHoverItem(item => !item)
-}
-    return(
-        <div className='FilterSideItem ' >
-        <div onClick={HandleHoverItem}><p className="Slogan">{slogan}</p></div>
-        <div className={HoverItem ? "ItemText" : "ItemTextHover"}>
-            <p>{item}</p>
-            <p>{item}</p>
-            <p>{item}</p>
-            <p>{item}</p>
-        </div>
-        <div className={HoverItem ? "iTEMlINE": "iTEMlINEHover"}></div>
+  function handleHoverItem() {
+    setHoverItem((item) => !item);
+  }
+
+  return (
+    <div className="FilterSideItem">
+      <div className="SloganLIne" >
+        <p className="Slogan">{slogan}</p>
+        <span className={hoverItem ? "arowAnimation" : "arow"} onClick={handleHoverItem}>&#x25BC;</span>
+      </div>
+      <div className={hoverItem ? "ItemText" : "ItemTextHover"}>
+        {children} 
+      </div>
+      <div className={hoverItem ? "iTEMlINE" : "iTEMlINEHover"}></div>
     </div>
-    );
+  );
 }
