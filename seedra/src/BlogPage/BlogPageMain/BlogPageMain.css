@@ -1,0 +1,50 @@
+.startBlog{
+    width: auto;
+    height: 251px;
+    background-image: url("./bgBlog.png");
+    background-size: 100%;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionBlogPageMain{
+    padding: 20px 100px 100px 100px;
+
+}
+
+.startBlogtext{
+font-family: Lexend;
+font-size: 48px;
+font-weight: 600;
+line-height: 54px;
+letter-spacing: -0.05em;
+}
+
+.startBlogdecripto{
+    margin-top: 12px;
+font-family: Lexend;
+font-size: 16px;
+font-weight: 300;
+line-height: 28px;
+}
+
+.BlogSearchlne{
+    margin-top: 19px;
+}
+
+.Blog-container{
+   margin-top: 100px;
+   display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(3, 1fr);
+gap:50px ;
+}
+
+.flexBlog-container{
+    display: flex;
+   justify-content: center;
+   
+}

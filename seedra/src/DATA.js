@@ -55,6 +55,19 @@ export const BlogComponentDATA = [
     {img: strawbery  , data:'27.03.2023', text:'How to plant spinach correctly in winter', descripion: '', ID: 'item-3',},
 ]
 
+export const BlogBigComponentDATA = [
+  {img: Women , data:'01.01.2021', text:'How to plant spinach correctly in winter', ID: 'item-0'},
+  {img: capusta, data:'19.05.2023', text:'How to plant spinach correctly in winter', ID: 'item-1'},
+  {img: strawbery, data:'30.09.2021', text:'How to plant spinach correctly in winter', ID: 'item-2'},
+  {img: strawbery, data:'27.03.2023', text:'How to plant spinach correctly in winter', ID: 'item-3'},
+  {img: Women , data:'01.01.2021', text:'How to plant spinach correctly in winter', ID: 'item-0'},
+  {img: capusta, data:'19.05.2023', text:'How to plant spinach correctly in winter', ID: 'item-1'},
+  {img: strawbery, data:'30.09.2021', text:'How to plant spinach correctly in winter', ID: 'item-2'},
+  {img: strawbery, data:'27.03.2023', text:'How to plant spinach correctly in winter', ID: 'item-3'},
+  {img: strawbery, data:'27.03.2023', text:'How to plant spinach correctly in winter', ID: 'item-3'},
+];
+
+
 export const SliderComponentDATA = [
     {
       img: face,
@@ -93,4 +106,19 @@ export const SliderComponentDATA = [
       description: 'Lettuce Seeds - 800 seeds with planting instructions by renowned gardener Dr. Angela Martin. Non-GMO, high germination rate, perfect for fresh salads and garnishes.'
     }
   ];
+  
+
+  const TestData = [
+    { item: "1" },
+    { item: "2" },
+    { item: "3" },
+    { item: "4" },
+    { item: "5" },
+    { item: "6" },
+    { item: "7" },
+    { item: "8" },
+    { item: "9" },
+  ];
+  
+  export default TestData;
   
